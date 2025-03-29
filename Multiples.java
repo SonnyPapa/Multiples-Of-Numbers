@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FindingMultiplesButThisTimeTakingUserInput {
+public class FindingMultiples {
         static Scanner irr = new Scanner(System.in);
 
     public static void main(String[] args) {
