@@ -13,7 +13,7 @@ public class FindingMultiples {
         System.out.println("How many multiples do you want to find. for eg first 12 or 13(multiples)...?");
         int okk = irr.nextInt();
         for(int i=first; i<=last; i++){
-            System.out.println("First "+okk+" multiples of "+first);
+            System.out.println("First "+okk+" multiples of "+ i);
             for(int j=1; j<=okk; j++ ){
                 System.out.println(i+"*"+ j+ " = "+ i*j);
             }
