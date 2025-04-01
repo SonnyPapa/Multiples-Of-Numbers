@@ -17,7 +17,6 @@ public class FindingMultiples {
             for(int j=1; j<=okk; j++ ){
                 System.out.println(i+"*"+ j+ " = "+ i*j);
             }
-            first++;
             System.out.println();
             System.out.println();
         }
