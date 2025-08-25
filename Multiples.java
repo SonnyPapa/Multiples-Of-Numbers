@@ -21,7 +21,7 @@ public class MultiplicationTable {
 
         // prompts a user to enter the number of multiples to find
         System.out.println("How many multiples do you want to find. for eg first 12 or 13(multiples)...?");
-        int multi = Console.nextInt();
+        int mul = Console.nextInt();
         for (int i = first; i <= last; i++) {
             System.out.println("First " + mult + " multiples of " + i);
             for (int j = 1; j <= mult; j++) {
@@ -40,4 +40,5 @@ public class MultiplicationTable {
     }
 
 }
+
 
